@@ -1,381 +1,372 @@
-.header { 
-   width: 1052px;
-   height: 105px;
-   margin-top: 92px;
-   margin-left: 24px;
-} 
-
-.header_menu {  
-   font-family: 'Raleway', san-serif; 
-   
-   font-size: 18px;  
-} 
-
-.logo_container { 
-   width:  148px;
-   height: 105px; 
-   margin-left: 454px;
-   margin-top: -65px;
+.header {
+  width: 1052px;
+  height: 105px;
+  margin-top: 92px;
+  margin-left: 24px;
 }
 
-.circle { 
-   list-style: circle; 
-   text-decoration: underline;
+.header_menu {
+  font-family: "Raleway", san-serif;
+  font-size: 18px;
 }
 
-.main_text { 
-   list-style: none;
-} 
+.logo_container {
+  width: 148px;
+  height: 105px;
+  margin-left: 454px;
+  margin-top: -65px;
+}
 
-.header__links-list { 
-   display: flex ; 
-   flex-direction: row;
-   gap: 31.48px;
-   padding-top: 44px;
-   padding-left: 26.52px;
-} 
+.circle {
+  list-style: circle;
+  text-decoration: underline;
+}
 
-.numbers_of_phone { 
-   text-decoration: underline; 
-   width: 240px;
-   height: 24px;
-   border: 1px;
-} 
+.main_text {
+  list-style: none;
+}
 
-.contact { 
-   text-decoration: none;
-   padding: 0;
-   font-style: normal;
-   text-align: left;
-   margin: 0; 
-   width: 240.52px;
-   height: 98px; 
-   margin-left: 800px;
-   margin-top: -90px;
-} 
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 31.48px;
+  padding-top: 44px;
+  padding-left: 26.52px;
+}
 
-.home_address { 
-   width: 237px;
-   height: 49px;
-   font-family: 'Raleway', sans-serif; 
-   font-size: 18px;
-   font-weight: 400;
-} 
+.numbers_of_phone {
+  text-decoration: underline;
+  width: 240px;
+  height: 24px;
+  border: 1px;
+}
 
-.cover { 
-   position: absolute;
-   background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/cover.jpg"); 
-   width: 1100px;
-   height: 757px; 
-   margin-top: 95px; 
-   background-size: cover; 
-   background-position: right center;
-   background-repeat: no-repeat; 
+.contact {
+  text-decoration: none;
+  padding: 0;
+  font-style: normal;
+  text-align: left;
+  margin: 0;
+  width: 240.52px;
+  height: 98px;
+  margin-left: 800px;
+  margin-top: -90px;
+}
+
+.home_address {
+  width: 237px;
+  height: 49px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.cover {
+  position: absolute;
+  background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/cover.jpg");
+  width: 1100px;
+  height: 757px;
+  margin-top: 95px;
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
 }
 
 .overlay {
-   position: absolute; 
-   width: 1100px;
-   height: 757px;  
-   background-color: rgba(0,0,0,0.5); 
-} 
-
-.content_on_cover { 
-   z-index: 1;
-} 
-
-.cover_title { 
-   font-family: 'Raleway', san-serif; 
-   font-weight: 700; 
-   font-size: 100px;
-   line-height: 115px;
-   color: white; 
-} 
-
-.span { 
-   display: block; 
-   padding-top: 165px;
-   line-height: 0; 
-   letter-spacing: 30px;
-   padding-left: 50px;
-} 
-
-.aligned-text_center { 
-   text-align: center; 
-} 
-
-.aligned-text_right { 
-   text-align: right; 
-
-} 
-
-.letter-spacing-extended { 
-   margin-left: 40px;
-} 
-
-.cover__description { 
-   display: grid; 
-   justify-content: space-between;
+  position: absolute;
+  width: 1100px;
+  height: 757px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.cover__description-text { 
-   color: white; 
-   font-family: 'Raleway', san-serif; 
-   font-size: 22px; 
-   line-height: 28px; 
-   font-weight: 400; 
-   padding-left: 78px;
-   word-spacing: 10px;
-   padding-top: 130px;
-} 
-
-.button { 
-   width: 256px; 
-   height: 51px;
-   border: 1px solid white;
-   font-size: 1rem;
-   background-color: transparent; 
-   text-align: center; 
-   margin-left: 794px;
-   color: white;
+.content_on_cover {
+  z-index: 1;
 }
 
-.lots { 
-   width: 1052px; 
-   height: 692px; 
-   margin-top: 1229px; 
-   background-position: center; 
-   margin-left: 24px; 
-}  
-
-.image_1 { 
-   background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/card-lot-01.jpg");
-   background-size: cover; 
-   width: 333px; 
-   height: 563px;  
-   background-repeat: no-repeat; 
-   background-position: center;
-} 
-
-.image_2 { 
-   background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/card-lot-02.jpg");
-   background-size: cover; 
-   width: 333px; 
-   height: 563px; 
-   background-repeat: no-repeat; 
-   background-position: center;
-} 
-
-.image_3 { 
-   background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/card-lot-03.jpg"); 
-   background-size: cover; 
-   width: 333px; 
-   height: 563px; 
-   background-repeat: no-repeat; 
-   background-position: center;
-} 
-
-.container_lots { 
-   display: flex; 
-   align-items: center; 
-   padding-top: 74px;
-   gap: 26.50px; 
+.cover_title {
+  font-family: "Raleway", san-serif;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 115px;
+  color: white;
 }
 
-.overlay_for_lots { 
-   position: absolute;
-   width: 333px;
-   height: 563px;  
-   background-color: rgba(0,0,0,0.5);
-
-
-} 
-
-.card_title { 
-   text-decoration: underline;
-   width: 254px; 
-   height: 82px; 
-   font-size: 22px; 
-   font-family: 'Raleway', sans-serif;  
-   color: white;
-   font-weight: 700;
-   padding-left: 40px;
-   padding-top: 51px;
-   white-space: nowrap; 
-   text-transform: uppercase;  
+.span {
+  display: block;
+  padding-top: 165px;
+  line-height: 0;
+  letter-spacing: 30px;
+  padding-left: 50px;
 }
 
-.card_text { 
-   width: 254px; 
-   height: 144px; 
-   font-family: 'Raleway', san-serif; 
-   font-weight: 400; 
-   font-size: 20px; 
-   color: white ;
-   line-height: 24px; 
-   padding-top: 280px;
-   padding-left: 40px; 
-   white-space: nowrap; 
+.aligned-text_center {
+  text-align: center;
+}
 
-} 
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  margin-left: 40px;
+}
+
+.cover__description {
+  display: grid;
+  justify-content: space-between;
+}
+
+.cover__description-text {
+  color: white;
+  font-family: "Raleway", san-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 400;
+  padding-left: 78px;
+  word-spacing: 10px;
+  padding-top: 130px;
+}
+
+.button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid white;
+  font-size: 1rem;
+  background-color: transparent;
+  text-align: center;
+  margin-left: 794px;
+  color: white;
+}
+
+.lots {
+  width: 1052px;
+  height: 692px;
+  margin-top: 1229px;
+  background-position: center;
+  margin-left: 24px;
+}
+
+.image_1 {
+  background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/card-lot-01.jpg");
+  background-size: cover;
+  width: 333px;
+  height: 563px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image_2 {
+  background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/card-lot-02.jpg");
+  background-size: cover;
+  width: 333px;
+  height: 563px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image_3 {
+  background-image: url("C:/Users/USER_ROOT/ono-tebe-nado/images/card-lot-03.jpg");
+  background-size: cover;
+  width: 333px;
+  height: 563px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container_lots {
+  display: flex;
+  align-items: center;
+  padding-top: 74px;
+  gap: 26.5px;
+}
+
+.overlay_for_lots {
+  position: absolute;
+  width: 333px;
+  height: 563px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card_title {
+  text-decoration: underline;
+  width: 254px;
+  height: 82px;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-top: 51px;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.card_text {
+  width: 254px;
+  height: 144px;
+  font-family: "Raleway", san-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 24px;
+  padding-top: 280px;
+  padding-left: 40px;
+  white-space: nowrap;
+}
 .card_text_2 {
-   width: 254px; 
-   height: 360px;
-   font-family: 'Raleway', sans-serif; 
-   font-weight: 400; 
-   font-size: 20px; 
-   line-height: 24px; 
-   color: white;
-   white-space: nowrap;
-   padding-left: 40px;
-   padding-top: 70px; 
-
-} 
-
-
-.card_text_3 { 
-   width: 254px; 
-   height: 264px; 
-   font-family: 'Raleway', san-serif; 
-   font-weight: 400; 
-   font-size: 20px; 
-   line-height: 24px;  
-   white-space: nowrap; 
-   color: white;
-   padding-left: 40px; 
-   padding-top: 164px;
-
+  width: 254px;
+  height: 360px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  white-space: nowrap;
+  padding-left: 40px;
+  padding-top: 70px;
 }
 
-.lots_title { 
-   width: 121px; 
-   height: 47px;
-   font-family: 'Raleway', sans-serif;
-   font-weight:700; 
-   font-size: 40px; 
-   line-height: 46.96px; 
-   padding-left: 40px;
-   text-transform: uppercase;
+.card_text_3 {
+  width: 254px;
+  height: 264px;
+  font-family: "Raleway", san-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  white-space: nowrap;
+  color: white;
+  padding-left: 40px;
+  padding-top: 164px;
 }
 
-.more { 
-   padding-top: 30px;    
-   width: 192px; 
-   height: 23px;
-   padding-left: 40px;
-   font-family: 'Raleway', san-serif; 
-   font-weight: 400; 
-   font-size: 20px;
-   line-height: 23.48px; 
-   text-decoration: underline;
-   white-space: nowrap;
-} 
+.lots_title {
+  width: 121px;
+  height: 47px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  padding-left: 40px;
+  text-transform: uppercase;
+}
 
-.about { 
-   width: 1052px; 
-   height: 595px; 
-   margin-left: 24px;
-   margin-top: 201px;
-} 
+.more {
+  padding-top: 30px;
+  width: 192px;
+  height: 23px;
+  padding-left: 40px;
+  font-family: "Raleway", san-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
 
-.logo_about { 
-   width: 240px; 
-   height: 240px;
-   background-color: black;
-   margin-left: 47px;
-   border-radius: 50%; 
-   top:35px;
+.about {
+  width: 1052px;
+  height: 595px;
+  margin-left: 24px;
+  margin-top: 201px;
+}
+
+.logo_about {
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  margin-left: 47px;
+  border-radius: 50%;
+  top: 35px;
 }
 
 .logo_about_1 {
-   background-position: center;
-   filter: brightness(0) invert(1);
-   width: 118px; 
-   height: 114px; 
-   padding-top: 70px;
-   margin-left: 60px;
+  background-position: center;
+  filter: brightness(0) invert(1);
+  width: 118px;
+  height: 114px;
+  padding-top: 70px;
+  margin-left: 60px;
 }
 
-.about_title { 
-   width: 291px; 
-   height: 47px;
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700; 
-   font-size: 40px; 
-   color:  black; 
-   line-height: 46.96px;
-   text-transform: uppercase; 
-   margin-left: 359px;
-   margin-top: -130px;
-} 
+.about_title {
+  width: 291px;
+  height: 47px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+  line-height: 46.96px;
+  text-transform: uppercase;
+  margin-left: 359px;
+  margin-top: -130px;
+}
 
 .about_text_1 {
-   width: 688px;
-   height: 120px;
-   font-family: 'Raleway', sans-serif; 
-   font-weight: 400; 
-   font-size: 20px;
-   line-height: 24px; 
-   margin-left: 360px;
-   padding-top: 50px;
-   white-space: nowrap;
-} 
-
-.about_text_2 { 
-   width: 693px; 
-   height: 168px; 
-   font-family: 'Raleway', san-serif; 
-   font-size: 20px;
-   line-height: 24px;
-   color: black;
-   margin-left: 360px; 
-   padding-top: 70px;
-} 
-
-.footer { 
-   width: 1000px;
-   height: 98px;
-   margin-left: 50px; 
-   display: grid;    
-   justify-items: start;
-
-} 
-
-.footer_link_list { 
-   list-style: none; 
-   margin-left: 476px;
-   margin-top: -95px;
-} 
-
-.footer_images { 
-   display: flex; 
-   gap: 30px;
-   margin-left: 795px;
-   margin-top: -90px;
+  width: 688px;
+  height: 120px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 360px;
+  padding-top: 50px;
+  white-space: nowrap;
 }
 
-.youtube { 
-   width: 48px;
-   height: 48px;
-   border: 1px;
-} 
+.about_text_2 {
+  width: 693px;
+  height: 168px;
+  font-family: "Raleway", san-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  margin-left: 360px;
+  padding-top: 70px;
+}
 
-.vk { 
-   width: 48px;
-   height: 48px;
-   border: 1px;
-} 
+.footer {
+  width: 1000px;
+  height: 98px;
+  margin-left: 50px;
+  display: grid;
+  justify-items: start;
+}
 
-.pinterest { 
-   width: 48px;
-   height: 48px;
-   border: 1px;
-} 
+.footer_link_list {
+  list-style: none;
+  margin-left: 476px;
+  margin-top: -95px;
+}
+
+.footer_images {
+  display: flex;
+  gap: 30px;
+  margin-left: 795px;
+  margin-top: -90px;
+}
+
+.youtube {
+  width: 48px;
+  height: 48px;
+  border: 1px;
+}
+
+.vk {
+  width: 48px;
+  height: 48px;
+  border: 1px;
+}
+
+.pinterest {
+  width: 48px;
+  height: 48px;
+  border: 1px;
+}
 
 .center_footer {
-   text-decoration: underline;
+  text-decoration: underline;
 }
 
-.last_footer { 
-   text-decoration: underline;
+.last_footer {
+  text-decoration: underline;
 }
