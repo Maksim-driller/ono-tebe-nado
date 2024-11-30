@@ -13,11 +13,13 @@
 .header_menu {
   margin-left: 26px;
 }
+
 .header_links {
   display: flex;
   gap: 26px;
   list-style: circle;
 }
+
 .main {
   list-style: none;  
   margin-left: -2px; 
