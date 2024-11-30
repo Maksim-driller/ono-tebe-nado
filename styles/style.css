@@ -10,37 +10,46 @@
   margin-right: 60px;
 }
 
-.container_header {
-  display: grid;
-  grid-template-columns: 1fr 148px 1fr;
-  align-items: center;
-  justify-self: end;
-  margin-right: 60px;
-}
-
 .header_menu {
   margin-left: 26px;
 }
-
 .header_links {
   display: flex;
-  gap: 24px;
+  gap: 26px;
   list-style: circle;
-  letter-spacing: 1px;
 }
-
 .main {
-  list-style: none;
+  list-style: none;  
+  margin-left: -2px; 
+  margin-top: 39px;
+  font-size: 18px;
+  font-weight: 400;  
+  line-height: 21.13px; 
 }
 
 .view_lots {
   white-space: nowrap;
-  text-decoration: underline;
+  text-decoration: underline; 
+  margin-left: 8px;
+  margin-top: 39px; 
+  text-underline-offset: 3px; 
+  font-size: 18px;  
+  font-weight: 400;  
+  line-height: 21.13px;  
+  width: 151px; 
+  height: 21px;
 }
 
 .about_auction {
   white-space: nowrap;
-  text-decoration: underline;
+  text-decoration: underline; 
+  font-size: 18px; 
+  font-weight: 400; 
+  line-height: 21.13px; 
+  text-underline-offset: 3px; 
+  margin-top: 38px;
+  margin-left: 5px; 
+
 }
 
 .nounderline {
@@ -48,18 +57,24 @@
 }
 
 .header_logo-image {
-  margin-left: 55px;
+  margin-left: 450px;
   width: 148px;
-  height: 105px;
+  height: 105px; 
+  margin-top: -65px;
 }
 
 .list_address {
   list-style: none;
   white-space: nowrap;
-  padding-left: 242px;
-  margin-top: -7px;
+  padding-left: 784px;
+  margin-top: -103px;
   width: 240px;
-  font-size: 18px;
+  font-size: 18px;  
+  line-height: 24.3px;
+}
+
+.link_info { 
+  text-underline-offset: 2px; 
 }
 
 .cover {
@@ -372,7 +387,8 @@
   font-weight: 400;
   line-height: 24.3px;
   list-style: none;
-  font-size: 18px;
+  font-size: 18px; 
+  margin-top: 10px;
 }
 
 .main_lots_auction_footer {
@@ -384,7 +400,7 @@
 
 .main_footer {
   list-style: none;
-  padding-left: 48px;
+  padding-left: 46px;
   border: 1px;
 }
 
@@ -429,4 +445,4 @@
   background-image: url(../images/pinterest.svg);
   margin-left: 950px;
   margin-top: -48px;
-}
+} 
