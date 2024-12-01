@@ -22,7 +22,7 @@
 
 .main {
   list-style: none;
-  margin-left: -2px;
+  margin-left: 1px;
   margin-top: 39px;
   font-size: 18px;
   font-weight: 400;
@@ -32,14 +32,14 @@
 .view_lots {
   white-space: nowrap;
   text-decoration: underline;
-  margin-left: 8px;
+  margin-left: 7px;
   margin-top: 39px;
-  text-underline-offset: 3px;
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
   width: 151px;
-  height: 21px;
+  height: 21px;  
+  text-underline-offset: 5px;
 }
 
 .about_auction {
@@ -48,9 +48,9 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  text-underline-offset: 3px;
-  margin-top: 38px;
-  margin-left: 5px;
+  text-underline-offset: 5px;
+  margin-top: 39px;
+  margin-left: 3px; 
 }
 
 .nounderline {
@@ -112,7 +112,8 @@
   align-items: center;
   gap: 83px;
   margin-right: 51px;
-  padding-top: 134px;
+  padding-top: 134px; 
+  
 }
 
 .cover__description-text {
@@ -120,7 +121,9 @@
   font-size: 22px;
   line-height: 1.27;
   text-transform: uppercase;
-  word-spacing: 18px;
+  word-spacing: 18px; 
+  margin-top: 7px; 
+  padding-left: 30px;
 }
 
 .aligned-text {
@@ -162,7 +165,8 @@
   text-transform: uppercase;
   background-color: transparent;
   width: 256px;
-  height: 51px;
+  height: 51px; 
+  margin-top: 4px;
 }
 .title_lots {
   width: 121px;
@@ -235,7 +239,7 @@
 }
 
 .card_title_2 {
-  width: 254px;
+  width: 254px; 
   height: 110px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -243,8 +247,8 @@
   text-decoration: underline;
   text-transform: uppercase;
   color: white;
-  padding-top: 51px;
-  padding-left: 39px;
+  padding-top: 52px;
+  padding-left: 42px;
   white-space: nowrap;
 }
 
@@ -279,8 +283,8 @@
   line-height: 26.4px;
   text-decoration: underline;
   text-transform: uppercase;
-  padding-top: 50px;
-  padding-left: 40px;
+  padding-top: 52px;
+  padding-left: 42px;
   color: white;
   white-space: nowrap;
 }
@@ -298,6 +302,10 @@
   padding-top: 142px;
 }
 
+.view_more { 
+  margin-top: 3px;
+}
+
 .views_more {
   width: 192px;
   height: 25px;
@@ -307,7 +315,8 @@
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   line-height: 23.48px;
-  text-underline-offset: 5px;
+  text-underline-offset: 5px; 
+  margin-top: 100px;
 }
 
 .view_more {
@@ -357,9 +366,10 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
-  padding-left: 357px;
+  padding-left: 362px;
   white-space: nowrap;
-  padding-top: 100px;
+  padding-top: 100px; 
+  letter-spacing: 1%;
 }
 
 .auction_about_text_2 {
@@ -370,8 +380,9 @@
   font-size: 20px;
   line-height: 24px;
   white-space: nowrap;
-  padding-left: 356px;
-  padding-top: 123px;
+  padding-left: 362px;
+  padding-top: 124px; 
+  letter-spacing: 4%;
 }
 
 .footer {
@@ -389,7 +400,7 @@
   line-height: 24.3px;
   list-style: none;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: -5px; 
 }
 
 .main_lots_auction_footer {
@@ -401,7 +412,8 @@
 
 .main_footer {
   list-style: none;
-  padding-left: 46px;
+  padding-left: 46px; 
+  padding-top: 7px;
   border: 1px;
 }
 
@@ -446,4 +458,13 @@
   background-image: url(../images/pinterest.svg);
   margin-left: 950px;
   margin-top: -48px;
+} 
+
+.our_text { 
+  letter-spacing: 3%;
+}
+
+.they_text { 
+  letter-spacing: 4%; 
+  line-height: 24px;
 }
