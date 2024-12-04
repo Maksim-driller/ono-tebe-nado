@@ -47,7 +47,7 @@
   letter-spacing: 0.18px;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
-  font-style: normal;
+  font-style: normal; 
 }
 
 .address_numbers {
@@ -91,7 +91,8 @@
   display: flex;
   flex-direction: column;
   padding: 165px 50px 147px;
-  gap: 20px;
+  gap: 20px; 
+  text-align: center;
 }
 
 .cover_title span {
@@ -101,29 +102,30 @@
   letter-spacing: 30px;
 }
 
-.text_cover {
-  position: relative;
+.text_cover { 
   align-self: flex-start;
   line-height: 115%;
   transform: translateY(2px);
+  text-align: center; 
+  line-height: 115%; 
 }
 
 .text_center {
-  margin-left: 285px;
-  top: 15px;
+  align-self: center; 
 }
 
 .text_right {
-  top: 15px;
-  left: 585px;
-}
+  align-self: flex-end;   
+  margin-right: -35px;
+} 
 
-.text_cover .spacing {
-  letter-spacing: 60px;
-}
+
+.text_cover .spacing  {
+  letter-spacing: 60px; 
+} 
 
 .text_cover .no_spacing {
-  letter-spacing: 60px;
+  letter-spacing: 60px; 
 }
 
 .cover_description {
