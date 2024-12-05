@@ -170,7 +170,9 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: center;
+  justify-content: center; 
+  padding: 0; 
+  margin: 0 auto;
 }
 
 .card_lots {
