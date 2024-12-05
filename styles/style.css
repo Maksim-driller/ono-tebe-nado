@@ -110,11 +110,11 @@
 }
 
 .text_center {
-  align-self: center; 
+  align-self: center; /* изменено центрирование ( не через отступы ) */
 }
 
 .text_right {
-  align-self: flex-end;   
+  align-self: flex-end;   /* изменено позиционирование, top удален, position: relative удален */
   margin-right: -35px;
 } 
 
