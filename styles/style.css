@@ -103,6 +103,7 @@
 }
 
 .text_cover { 
+  position: relative;
   align-self: flex-start;
   line-height: 115%;
   transform: translateY(2px);
@@ -110,12 +111,14 @@
 }
 
 .text_center {
-  align-self: center; /* изменено центрирование ( не через отступы ) */
+  align-self: center; 
+  top: 15px; /* изменено центрирование ( не через отступы ) */
 }
 
 .text_right {
   align-self: flex-end;   /* изменено позиционирование, top удален, position: relative удален */
-  margin-right: -35px;
+  top: 10px;
+  transform: translateX(30px);  /* убрал отрицательный отступ */
 } 
 
 
@@ -123,8 +126,8 @@
   letter-spacing: 60px; 
 } 
 
-.text_cover .no_spacing {
-  letter-spacing: 60px; 
+.text_cover .no_spacing_ok {
+  letter-spacing: 8px; /* чтобы было по макету отступ */  
 }
 
 .cover_description {
@@ -170,9 +173,10 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: center; 
+  justify-content: flex-start; /* указал start */ 
   padding: 0; 
   margin: 0 auto;
+  margin-left: 20px; /* левый отступ чтобы совпадало с макетом */ 
 }
 
 .card_lots {
