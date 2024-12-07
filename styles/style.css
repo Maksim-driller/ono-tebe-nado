@@ -50,19 +50,6 @@
   font-style: normal; 
 }
 
-.address_numbers {
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.street_address {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  font-style: normal;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-}
 
 .cover {
   position: relative;
@@ -103,27 +90,26 @@
 }
 
 .text_cover { 
-  position: relative;
+  
   align-self: flex-start;
   line-height: 115%;
   transform: translateY(2px);
   text-align: center;  
+  word-spacing: 5px; 
 }
 
 .text_center {
-  align-self: center; 
-  top: 15px; /* изменено центрирование ( не через отступы ) */
+  align-self: center;  
+  text-align: center;  
 }
 
 .text_right {
-  align-self: flex-end;   /* изменено позиционирование, top удален, position: relative удален */
-  top: 10px;
-  transform: translateX(30px);  /* убрал отрицательный отступ */
+  align-self: flex-end;  
+  text-align: right; 
 } 
 
-
 .text_cover .spacing  {
-  letter-spacing: 60px; 
+  letter-spacing: 60px;  
 } 
 
 .text_cover .no_spacing_ok {
