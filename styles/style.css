@@ -59,7 +59,7 @@
   text-transform: uppercase;
   z-index: 0;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; 
 }
 
 .overlay {
@@ -74,54 +74,42 @@
   z-index: -1;
 }
 
-.cover_title {
+.cover_title { 
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 165px 50px 147px;
-  gap: 20px; 
-  text-align: center;
+  gap: 20px;   
+} 
+ 
+.cover_title span { 
+  font-size: 100px; 
+  letter-spacing: 30px; 
+  font-weight: 700;  
+  line-height: 100%;  
 }
 
-.cover_title span {
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 100%;
-  letter-spacing: 30px;
-}
-
-.text_cover { 
-  
-  align-self: flex-start;
-  line-height: 115%;
-  transform: translateY(2px);
-  text-align: center;  
-  word-spacing: 5px; 
+.text_cover {
+  display: block;
+  line-height: 125px;
 }
 
 .text_center {
-  align-self: center;  
-  text-align: center;  
+  text-align: center;
+  line-height: 125px;
 }
 
 .text_right {
-  align-self: flex-end;  
-  text-align: right; 
-} 
-
-.text_cover .spacing  {
-  letter-spacing: 60px;  
-} 
-
-.text_cover .no_spacing_ok { 
-  letter-spacing: 0px; /* сброс межбуквенного разрыва */ 
+  text-align: right;
+  line-height: 120px;  
 }
 
-.text_cover .half_spacing { 
-  letter-spacing: 60px;
+.text_cover .no_letter_spacing {
+  letter-spacing: 0px; 
 }
 
-.text_cover .no_spacing { 
-  letter-spacing: 60px;
+.text_cover .letter_spacing {
+  letter-spacing: 60px; 
 }
 
 .cover_description {
