@@ -24,11 +24,13 @@
 .link_list {
   font-size: 18px;
   font-weight: 400;
-  text-underline-offset: 4px;
+  text-underline-offset: 4px; 
+  text-decoration: underline;
 }
 
 .main_link_marker {
-  list-style-type: none;
+  list-style-type: none; 
+  text-decoration: none;
 }
 
 .link_main {
@@ -47,7 +49,7 @@
   letter-spacing: 0.18px;
   font-family: "Raleway", sans-serif;
   list-style-type: none;
-  font-style: normal; 
+  font-style: normal;  
 }
 
 
@@ -84,7 +86,6 @@
  
 .cover_title span { 
   font-size: 100px; 
-  letter-spacing: 30px; 
   font-weight: 700;  
   line-height: 100%;  
 }
@@ -104,12 +105,16 @@
   line-height: 120px;  
 }
 
+.text_cover { 
+  letter-spacing: 30px; /* буква о разрыв 30, буквы те разрыв 30, буквы ад разрыв 30 */
+}
+
 .text_cover .no_letter_spacing {
-  letter-spacing: 0px; 
+  letter-spacing: 0px; /* сброс межбуквенного разрыва */ 
 }
 
 .text_cover .letter_spacing {
-  letter-spacing: 60px; 
+  letter-spacing: 60px; /* буквы но разрыв 60, буквы бе разрыв 60, буква н разрыв 60 */ 
 }
 
 .cover_description {
@@ -158,7 +163,11 @@
   justify-content: flex-start; /* указал start */ 
   padding: 0; 
   margin: 0 auto;
-  margin-left: 20px; /* левый отступ чтобы совпадало с макетом */ 
+  margin-left: 20px; /* левый отступ чтобы совпадало с макетом */  
+}
+
+.card_lots a { 
+  text-decoration: none; /* дефолтное подчеркивание текста убрано */ 
 }
 
 .card_lots {
@@ -201,12 +210,16 @@
   text-transform: uppercase;
 }
 
+.link_lots { 
+  text-decoration: none;
+}
 .text_on_card {
   color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%;
+  line-height: 120%; 
+  text-decoration: none !important;
 }
 
 .view_more {
